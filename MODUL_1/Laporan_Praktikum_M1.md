@@ -343,10 +343,12 @@ Program tersebut membaca sebuah bilangan n lalu menggunakan perulangan bersarang
 
 ## Kesimpulan
 
-...
+C++ memiliki berbagai konsep dasar yang menjadi fondasi dalam pemrograman, seperti variabel, operator, percabangan, array, dan perulangan. Variabel digunakan untuk menyimpan data dengan tipe tertentu, sedangkan operator memungkinkan manipulasi nilai melalui operasi aritmatika maupun logika. Struktur percabangan if-else, switch-case memberikan kemampuan pengambilan keputusan berdasarkan kondisi tertentu. Array berfungsi menyimpan sekumpulan data sejenis secara terstruktur, sehingga memudahkan akses dan pengelolaan. Perulangan for, while, do while digunakan untuk mengeksekusi instruksi secara berulang sehingga program lebih efisien dan ringkas.
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Triase. (2020). Diktat Edisi Revisi: STRUKTUR DATA. Medan: Universitas Islam Negeri Sumatera Utara Medan.
+<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. https://doi.org/10.21070/2020/978-623-6833-67-4 (doi.org in Bing)  
+<br>[3] Rosa, A. S., & Shalahuddin, M. (2018). Rekayasa Perangkat Lunak Terstruktur dan Berorientasi Objek. Bandung: Informatika.
+<br>[4] Sitorus, L. (2015). Algoritma dan Pemrograman. Yogyakarta: Andi Offset.
+<br>[5] Munir, R. (2011). Algoritma dan Pemrograman dalam Bahasa Pascal dan C++. Bandung: Informatika.
