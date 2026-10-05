@@ -7,29 +7,19 @@ Template-Laprak-Strukdat.md
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Pemrograman dasar dalam bahasa C++ mencakup pemahaman array, pointer, reference, fungsi, serta operasi matriks [1].
 
-### A. ...<br/>
+### A. Array dan Matriks <br/>
 
-...
+#### 1. Array adalah struktur data yang menyimpan elemen bertipe sama dalam satu variabel. Array satu dimensi digunakan untuk data linear, sedangkan array dua dimensi digunakan untuk data berbentuk tabel atau matriks. Operasi matriks seperti penjumlahan, pengurangan, dan perkalian dilakukan dengan memanfaatkan array dua dimensi [1].
 
-#### 1. ...
+### B. Pointer dan Reference <br/>
 
-#### 2. ...
+#### 1. Pointer adalah variabel yang menyimpan alamat memori dari variabel lain, sedangkan reference adalah alias dari variabel asli. Keduanya memungkinkan manipulasi langsung terhadap data sehingga lebih efisien dalam pengelolaan memori [2].
 
-#### 3. ...
+### C. Fungsi <br/>
 
-### B. ...<br/>
-
-...
-
-#### 1. ...
-
-#### 2. ...
-
-#### 3. ...
+### 2. FFungsi adalah blok kode yang dapat dipanggil berulang kali untuk menyelesaikan tugas tertentu. Dalam C++ parameter dapat dikirim dengan call by value, call by pointer, atau call by reference. Call by value hanya mengirim salinan nilai, sedangkan pointer dan reference dapat mengubah nilai asli [3].
 
 ## Guided
 
@@ -196,7 +186,7 @@ Program diatas menjelaskan tiga cara pertukaran nilai. Pada call by value, fungs
 
 ## Unguided
 
-### 1. (isi dengan soal unguided 1)
+### 1. (Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian matriks 3x3.)
 
 ```C++
 #include <iostream>
@@ -264,18 +254,15 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/ss_soal1_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/ss_soal1_2.png)
 
-penjelasan unguided 1
+Program diatas membaca dua buah matriks berukuran tiga kali tiga kemudian melakukan tiga operasi yaitu penjumlahan pengurangan dan perkalian matriks hasil dari setiap operasi disimpan dalam matriks baru lalu ditampilkan ke layar proses penjumlahan dan pengurangan dilakukan dengan cara menambahkan atau mengurangi elemen yang posisinya sama sedangkan perkalian dilakukan dengan menjumlahkan hasil kali baris dari matriks pertama dengan kolom dari matriks kedua hasil akhirnya berupa tiga matriks yang menunjukkan hasil tambah hasil kurang dan hasil kali dari matriks yang dimasukkan
 
-### 2. (isi dengan soal unguided 2)
+### 2. (Berdasarkan guided pointer dan reference sebelumnya, buatlah keduanya dapat menukar nilai dari 3 variabel.)
 
 ```C++
 #include <iostream>
@@ -325,18 +312,15 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/ss_soal2_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/ss_soal2_2.png)
 
-penjelasan unguided 2
+Program diatas berfungsi untuk menukar nilai tiga variabel dengan dua cara yaitu menggunakan pointer dan menggunakan reference pada C++ pertama nilai awal x y dan z ditampilkan kemudian fungsi tukarPointer dipanggil dengan mengirim alamat variabel sehingga isi variabel benar benar berubah sesuai urutan yang ditentukan setelah itu fungsi tukarReference dipanggil dengan cara langsung bekerja pada variabel asli melalui referensi hasil akhirnya menunjukkan bahwa baik pointer maupun reference dapat digunakan untuk memodifikasi nilai variabel secara langsung tanpa membuat salinan sehingga nilai x y dan z berubah sesuai logika penukaran yang ada di dalam fungsi
 
-### 3. (isi dengan soal unguided 3)
+### 3. (Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! Kerjakan soal dengan ketentuan :)
 
 ```C++
 #include <iostream>
@@ -434,24 +418,20 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/sssoal3_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_2/screenshot/ss_soal3_2.png)
 
-penjelasan unguided 3
+Program tersebut menggunakan array berisi sepuluh angka lalu menyediakan menu untuk melakukan beberapa operasi yaitu menampilkan isi array mencari nilai maksimum mencari nilai minimum dan menghitung nilai rata rata fungsi maksimum dan minimum bekerja dengan cara membandingkan setiap elemen untuk menemukan nilai terbesar atau terkecil sedangkan fungsi ratarata menjumlahkan semua elemen lalu membaginya dengan jumlah data hasil dari setiap pilihan ditampilkan ke layar dan program akan terus berjalan sampai pengguna memilih keluar
 
 ## Kesimpulan
 
-...
+Praktikum ini memperkenalkan konsep dasar array, pointer, reference, fungsi, dan operasi matriks dalam C++. Array digunakan untuk menyimpan data, pointer dan reference memungkinkan manipulasi langsung, fungsi membantu modularisasi program, dan matriks digunakan untuk perhitungan matematis. Pemahaman konsep ini menjadi dasar penting untuk membangun program yang efisien dan terstruktur.
 
 ## Referensi
 
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
 <br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
-Menampilkan Template-Laprak-Strukdat.md.
+<br>[3] Schildt, H. (2014). C++: The Complete Reference. McGraw-Hill.
