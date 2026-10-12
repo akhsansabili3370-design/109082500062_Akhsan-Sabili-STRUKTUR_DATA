@@ -4,29 +4,30 @@
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Abstract Data Type (ADT) atau Tipe Data Abstrak adalah model matematika untuk tipe data yang didefinisikan oleh perilaku dari sudut pandang pengguna, terlepas dari bagaimana data tersebut diimplementasikan secara internal [1]. Dalam bahasa pemrograman C++, ADT umumnya diimplementasikan menggunakan struktur (struct) yang membungkus berbagai variabel ke dalam satu kesatuan logis [2]. Pemecahan program menjadi file header (.h) dan file implementasi (.cpp) merupakan bagian dari modularisasi untuk memisahkan antarmuka dan logika kode [3]. Selain itu, pemanfaatan pointer [4], array dua dimensi [2], serta mekanisme pass by reference [5] sangat esensial dalam manipulasi memori dan pengelolaan struktur data yang kompleks.
 
-### A. ...<br/>
+### A. ADT dan modularisasi program<br/>
 
-...
+#### 1. Konsep dan Karakteristik ADT
+        Abstract Data Type (ADT) merupakan model matematika yang memisahkan definisi dan perilaku data dari detail implementasi internalnya [1].
 
-#### 1. ...
+#### 2. Penggunaan struct pada C++
+        Struct digunakan dalam C++ untuk mengelompokkan berbagai variabel bertipe data berbeda menjadi satu kesatuan objek [2].
 
-#### 2. ...
+#### 3. Pemisah Header dan Implementasi
+        Pemisahan file header (.h) dan file implementasi (.cpp) bertujuan untuk memisahkan deklarasi antarmuka dari logika kode program [3].
 
-#### 3. ...
+### B. Pointer, Array, dan mekanisme Pass by Reference<br/>
 
-### B. ...<br/>
+#### 1. Konsep Dasar Pointer
+        Pointer adalah variabel khusus yang menyimpan alamat memori dari suatu variabel lain [4].
 
-...
+#### 2. Array Dua Dimensi dan Akses Elemen
+        Array dua dimensi merupakan struktur data homogen berbentuk baris dan kolom yang diakses menggunakan dua indeks [baris][kolom] [2].
 
-#### 1. ...
+#### 3. Mekanisme Pass by Reference dan Penukaran Nilai
+        Mekanisme pass by reference memungkinkan fungsi mengubah langsung nilai variabel asli di alamat memorinya tanpa perlu menduplikasi data [5].
 
-#### 2. ...
-
-#### 3. ...
 
 ## Guided
 
@@ -376,7 +377,15 @@ Pada program diatas terdapat header yang berisi deklarasi fungsi dan prosedur, i
 
 ## Kesimpulan
 
-...
+Kesimpulan dari praktikum Modul 3 mengenai ADT adalah bahwa penggunaan struct yang dikombinasikan dengan modularisasi program dengan pemisahan file header dan implementasi sangat efektif untuk merancang kode yang terstruktur, bersih, dan mudah dipelihara. Selain itu, pengolahan data kolektif menggunakan array of struct pada pengelolaan data mahasiswa serta pemanfaatan array dua dimensi, pointer, dan mekanisme pass by reference terbukti dalam melakukan manipulasi elemen data maupun pengelolaan memori secara efisien tanpa menduplikasi data asli.
 
 ## Referensi
+[1] B. Stroustrup, The C++ Programming Language, 4th ed. Addison-Wesley, 2013.
 
+<br>[2] A. M. Tenenbaum, Y. Langsam, and M. J. Augenstein, Data Structures Using C and C++, Prentice Hall, 2019.
+
+<br>[3] R. Lafore, Object-Oriented Programming in C++, 4th ed. Sams Publishing, 2022.
+
+<br>[4] E. Horowitz, S. Sahni, and D. Mehta, Fundamentals of Data Structures in C++, Silicon Press, 2017.
+
+<br>[5] D. S. Malik, C++ Programming: From Problem Analysis to Program Design, 8th ed. Cengage Learning, 2018.
