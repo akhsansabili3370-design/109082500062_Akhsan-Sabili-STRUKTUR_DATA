@@ -176,14 +176,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-soal1-1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-saol1-2.png)
 
 Program ini dibuat dengan tiga bagian utama yaitu header, implementasi, dan main. Pada header menjelaskan struktur mahasiswa yang menyimpan nim dan dua nilai ujian serta deklarasi fungsi input dan rata rata. LAlu implementasi berisi fungsi inputMhs yang meminta pengguna memasukkan nim, nilai pertama, dan nilai kedua lalu menyimpannya ke dalam variabel mahasigma. Fungsi rata2 digunakan untuk menghitung rata rata dari dua nilai tersebut. File utama berfungsi menjalankan program dengan membuat variabel mahasigma, memanggil fungsi input untuk mengisi data, lalu menampilkan hasil rata rata menggunakan fungsi rata2. 
 
@@ -251,14 +248,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-soal2-1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-soal2-2.png)
 
 Pada progam diatas file header didefinisikan struktur pelajaran dengan dua variabel yaitu nama mata pelajaran dan kode mata pelajaran serta fungsi untuk menampilkan data. Lalu implementasi berisi fungsi create_pelajaran yang menerima input nama dan kode lalu mengembalikan pelajaran, serta prosedur tampil_pelajaran yang menampilkan output. File utama menjalankan program dengan membuat variabel string untuk nama dan kode, kemudian memanggil fungsi create_pelajaran untuk menghasilkan objek pelajaran dan menampilkan hasilnya menggunakan prosedur tampil_pelajaran.
 
@@ -372,14 +366,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-soal3-1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_3/screenshot/ss-soal3-2.png)
 
 Pada program diatas terdapat header yang berisi deklarasi fungsi dan prosedur, implementasi yang berisi kode untuk menampilkan isi array 2D dan menukarkan nilai array serta pointer, dan main yang berisi deklarasi dua array integer berukuran 3×3 serta dua variabel integer yang diakses menggunakan pointer. Fungsi tampilArray digunakan untuk menampilkan seluruh elemen array dengan perulangan, sedangkan prosedur tukarArray digunakan untuk menukarkan elemen dari kedua array pada posisi yang telah ditentukan, yaitu indeks [1][1], yang menunjukkan baris kedua dan kolom kedua. Selanjutnya, prosedur tukarPointer digunakan untuk menukarkan nilai variabel x dan y melalui pointer dengan bantuan variabel sementara bernama temp. 
 
