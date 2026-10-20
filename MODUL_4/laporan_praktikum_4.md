@@ -1,32 +1,35 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - SINGLY LINKED LIST (BAGIAN PERTAMA)</h1>
 
 <p align="center">AKHSAN SABILI - 109082500062</p>
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+### A. Struktur data linked list<br/>
 
-### A. ...<br/>
+Singly linked list adalah struktur data linear yang terdiri dari beberapa node. Setiap node menyimpan data dan pointer yang menunjuk ke node berikutnya [1].
 
-...
+#### 1. Pointer dan node
 
-#### 1. ...
+Node merupakan bagian dari linked list yang berisi data dan pointer next. Pointer First digunakan untuk menunjukkan node pertama dalam list.
 
-#### 2. ...
+#### 2. Operasi Linked List
 
-#### 3. ...
+Operasi dasar linked list meliputi pembuatan list, penambahan node, penampilan data, dan penghapusan node. Fungsi insertFirst() digunakan untuk menambahkan node di awal list.
 
-### B. ...<br/>
+### B. Manajemen memori<br/>
 
-...
 
-#### 1. ...
+#### 1. Alokasi memori
 
-#### 2. ...
+ proses menyediakan ruang untuk node baru. Dalam C++, operator new digunakan untuk membuat node secara dinamis.
 
-#### 3. ...
+#### 2. Dealokasi memori
+
+Dealokasi adalah proses membebaskan memori yang sudah tidak digunakan. Dalam C++, operator delete digunakan untuk menghapus node yang telah dialokasikan [2].
+
+#### 3. Penelusuran node
+
+Penelusuran node dilakukan dengan mengikuti pointer next dari node pertama hingga mencapai Nil.
 
 ## Guided
 
@@ -415,15 +418,18 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_4/screenshot/ss_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_4/screenshot/ss_2.png)
 
 Program ini adalah singly linked list dengan tipe data integer. Struktur ElmList menyimpan nilai info dan pointer ke node berikutnya, sedangkan List menyimpan pointer ke node pertama. Fungsi createList membuat list kosong, alokasi membuat node baru, dealokasi menghapus node dari memori, insertFirst menambahkan node di awal list, dan printInfo menampilkan isi list. Pada fungsi main, program membuat list kosong lalu menambahkan beberapa node dengan nilai 2, 20, 4, 15, dan 6 ke depan list sehingga urutannya menjadi 6 15 4 20 2, kemudian mencetak isi list dan menghapus semua node agar memori tidak bocor.
 
 ## Kesimpulan
 
+Praktikum ini memberikan pemahaman tentang penerapan singly linked list menggunakan C++. Operasi yang dilakukan meliputi pembuatan list, alokasi node, penyisipan data di awal list, penampilan data, dan dealokasi memori. Penyisipan di awal menyebabkan urutan data yang ditampilkan menjadi kebalikan dari urutan penyisipannya.
 
 ## Referensi
+[1] M. A. Weiss, Data Structures and Algorithm Analysis in C++, 4th ed. Pearson, 2014.
+<br> [2] P. J. Deitel and H. M. Deitel, C++ How to Program, 10th ed. Pearson, 2017.
