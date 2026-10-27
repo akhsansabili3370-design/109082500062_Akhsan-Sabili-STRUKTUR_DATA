@@ -38,4 +38,8 @@ void delAfter (linkedlist list, address nodeHapus, address nodePrev);
 int nbList(linkedlist list);
 void delist (linkedlist Glist);
 
+void findnodebydata(linkedlist list, string data);
+void findnodebyaddress(linkedlist list, address node);
+void findnodebyrange(linkedlist list, int nilaiawal, int nilaiakhir);
+
 #endif
