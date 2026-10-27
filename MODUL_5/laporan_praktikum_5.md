@@ -1,32 +1,34 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 5 - SINGLY LINKED LIST (BAGIAN KEDUA)</h1>
 
 <p align="center">AKHSAN SABILI - 109082500062</p>
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Linked list atau senarai berantai adalah salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas [1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer. Setiap node biasanya memiliki dua bagian utama yaitu data dan alamat menuju node berikutnya. Struktur data ini banyak digunakan karena lebih fleksibel dibandingkan array dalam hal penambahan dan penghapusan elemen [2].
 
-### A. ...<br/>
+### A. Konsep linked list<br/>
 
-...
+#### 1. Komponen
 
-#### 1. ...
+Komponen utama linked list terdiri dari node yang berisi data dan pointer ke node berikutnya. Selain itu terdapat pointer khusus yang menunjuk ke node pertama yang disebut head atau first [2].
 
-#### 2. ...
+#### 2. Jenis linked list
 
-#### 3. ...
+Linked list terbagi menjadi beberapa jenis yaitu singly linked list, doubly linked list, dan circular linked list. Singly linked list hanya memiliki pointer ke node berikutnya, sedangkan doubly linked list memiliki pointer ke node sebelumnya dan berikutnya, dan circular linked list membentuk lingkaran dengan node terakhir menunjuk kembali ke node pertama [3].
 
-### B. ...<br/>
+### B. Operasi linked list<br/>
 
-...
+#### 1. Pembuatan list
 
-#### 1. ...
+Operasi ini dilakukan dengan menginisialisasi pointer first menjadi null sehingga terbentuk list kosong yang siap digunakan [1].
 
-#### 2. ...
+#### 2. Penyisipan node
 
-#### 3. ...
+Node baru dapat disisipkan di awal list, di akhir list, atau setelah node tertentu. Proses ini dilakukan dengan mengatur pointer next dari node baru agar menunjuk ke node yang sesuai [2].
+
+#### 3. Penghapusan dan pencarian
+
+Node dapat dihapus dari awal, akhir, atau setelah node tertentu dengan cara mengubah pointer next dari node sebelumnya. Selain itu, pencarian elemen dilakukan dengan menelusuri list dari node pertama hingga node terakhir untuk menemukan data yang sesuai [3].
 
 ## Guided
 
@@ -667,27 +669,24 @@ int main() {
 
 ```
 
-### Output Unguided 3 :
+### Output Unguided 1 :
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_5/screenshot/ss_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_5/screenshot/ss_2.png)
 
 Program diatas berfungsi untuk membuat list menggunakan konsep singly linked list di mana setiap elemen dialokasikan dengan fungsi alokasi lalu dimasukkan ke depan list menggunakan insertFirst sehingga urutan akhirnya menjadi 9 12 8 0 2 kemudian isi list ditampilkan dengan printInfo setelah itu dilakukan pencarian elemen bernilai 8 dengan findElm yang akan mengembalikan alamat node jika ditemukan dan menampilkan pesan bahwa nilai tersebut ada dalam list serta dilakukan perhitungan jumlah seluruh nilai elemen dengan totalInfo yang menjumlahkan isi node satu per satu sehingga hasil akhirnya adalah 31.
 
 ## Kesimpulan
 
-...
+Dari praktikum ini dapat disimpulkan bahwa singly linked list merupakan struktur data yang efektif untuk menyimpan dan mengelola data secara dinamis. Dengan menggunakan pointer, setiap node dapat dihubungkan sehingga memungkinkan operasi penambahan, penghapusan, pencarian, dan perhitungan data dilakukan dengan lebih fleksibel dibandingkan array. Implementasi dalam C++ menunjukkan bagaimana konsep linked list dapat diwujudkan melalui ADT.
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Horowitz, E., & Sahni, S. (1983). Fundamentals of Data Structures in C. Computer Science Press.
+<br> [2] Weiss, M. A. (1997). Data Structures and Algorithm Analysis in C++. Addison-Wesley.
+<br> [3] Wirth, N. (1986). Algorithms and Data Structures. Prentice Hall.
