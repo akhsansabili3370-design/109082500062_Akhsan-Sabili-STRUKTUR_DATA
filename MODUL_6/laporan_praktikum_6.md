@@ -914,8 +914,8 @@ dari praktikum ini saya dapat memahami cara kerja dan implementasi Doubly Linked
 
 [1] R. S. Pressman dan B. R. Maxim, Software Engineering: A Practitioner's Approach, 9th ed. New York: McGraw-Hill, 2020.
 
-[2] <br> A. M. Tenenbaum, Y. Langsam, dan M. J. Augenstein, Data Structures Using C and C++, New Delhi: PHI Learning, 2017.
+<br> [2] A. M. Tenenbaum, Y. Langsam, dan M. J. Augenstein, Data Structures Using C and C++, New Delhi: PHI Learning, 2017.
 
-[3] <br> B. W. Kernighan dan D. M. Ritchie, The C Programming Language, 2nd ed. New Jersey: Prentice Hall, 1988.
+<br> [3] B. W. Kernighan dan D. M. Ritchie, The C Programming Language, 2nd ed. New Jersey: Prentice Hall, 1988.
 
-[4] <br> M. A. Weiss, Data Structures and Algorithm Analysis in C++, 4th ed. Boston: Pearson Education, 2014.
+<br> [4] M. A. Weiss, Data Structures and Algorithm Analysis in C++, 4th ed. Boston: Pearson Education, 2014.
