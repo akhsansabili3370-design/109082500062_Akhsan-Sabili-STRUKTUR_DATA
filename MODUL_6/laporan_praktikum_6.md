@@ -3,30 +3,29 @@
 <p align="center">Akhsan Sabili - 109082500062</p>
 
 ## Dasar Teori
+Linked List adalah struktur data linear yang terdiri dari sekumpulan node yang saling terhubung menggunakan pointer.Setiap node menyimpan data dan alamat node berikutnya sehingga ukuran penyimpanannya bersifat dinamis dan dapat bertambah atau berkurang sesuai kebutuhan [2]. Doubly Linked List merupakan pengembangan dari singly linked list yang setiap node-nya memiliki dua pointer, yaitu pointer next yang menunjuk ke node berikutnya dan pointer prev yang menunjuk ke node sebelumnya. Dengan adanya dua pointer tersebut, proses penelusuran data dapat dilakukan dari arah depan maupun belakang [4].
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+### A. Linked list<br/>
 
-### A. ...<br/>
+#### 1. Node
+Node merupakan elemen dasar dalam linked list yang berisi data dan pointer. Data digunakan untuk menyimpan informasi, sedangkan pointer digunakan untuk menghubungkan node dengan node lainnya.
 
-...
+#### 2. Pointer
+Pointer adalah variabel yang menyimpan alamat memori dari suatu data atau objek. Dalam linked list, pointer digunakan untuk menghubungkan antar node sehingga membentuk suatu rangkaian data [3].
 
-#### 1. ...
+#### 3. operasi linked list
+perasi yang umum dilakukan pada linked list meliputi penyisipan data (insert), pencarian data (search), perubahan data (update), penampilan data (traversal), dan penghapusan data (delete).
 
-#### 2. ...
+### B. Doubly linked list<br/>
 
-#### 3. ...
+#### 1. insert
+Insert adalah proses menambahkan node baru ke dalam list. Penyisipan dapat dilakukan di awal list, di akhir list, maupun di antara dua node yang sudah ada.
 
-### B. ...<br/>
+#### 2. search
+Search merupakan proses pencarian data tertentu di dalam list berdasarkan suatu kunci, seperti nama, nomor polisi, atau atribut lainnya yang tersimpan dalam node.
 
-...
-
-#### 1. ...
-
-#### 2. ...
-
-#### 3. ...
+#### 3. delete
+Delete adalah proses menghapus node dari list. Pada doubly linked list, proses penghapusan dapat dilakukan dengan lebih mudah karena setiap node memiliki hubungan ke node sebelumnya dan node berikutnya [4].
 
 ## Guided
 
@@ -646,7 +645,7 @@ int main()
 }
 ```
 
-Program ini digunakan untuk menyimpan dan mengelola data makanan menggunakan struktur data Doubly Linked List. Setiap data makanan memiliki nama, jenis, harga, dan rating. Program dapat menambahkan, menampilkan, mengubah, mencari, dan menghapus data makanan. Pada fungsi main, beberapa data makanan dimasukkan ke dalam list, kemudian dilakukan proses menampilkan, mengubah, mencari, dan menghapus data untuk menunjukkan cara kerja program.
+Program diatas berfungsi untuk menyimpan dan mengelola data makanan menggunakan struktur data Doubly Linked List. Setiap data makanan memiliki nama, jenis, harga, dan rating. Program dapat menambahkan, menampilkan, mengubah, mencari, dan menghapus data makanan. Pada fungsi main, beberapa data makanan dimasukkan ke dalam list, kemudian dilakukan proses menampilkan, mengubah, mencari, dan menghapus data untuk menunjukkan cara kerja program.
 
 
 ## Unguided
@@ -895,24 +894,28 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_6/screenshot/ss_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_6/screenshot/ss_2.png)
 
 ##### Output 3
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_3](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_6/screenshot/ss_3.png)
 
-penjelasan unguided 3
+Program diatas digunakan untuk menyimpan data kendaraan yang berisi nomor polisi, warna, dan tahun pembuatan menggunakan Doubly Linked List. Pengguna dapat memasukkan beberapa data kendaraan, lalu program akan menyimpannya ke dalam list. Setelah itu, pengguna bisa melihat semua data kendaraan, mencari kendaraan berdasarkan nomor polisi, dan menghapus data kendaraan yang diinginkan. Setelah proses penghapusan selesai, program akan menampilkan kembali daftar kendaraan yang tersisa sehingga pengguna dapat melihat perubahan data yang terjadi.
 
 ## Kesimpulan
 
-...
+dari praktikum ini saya dapat memahami cara kerja dan implementasi Doubly Linked List menggunakan bahasa C++ dengan membuat program untuk menyimpan data kendaraan yang terdiri dari nomor polisi, warna, dan tahun pembuatan, serta menerapkan operasi dasar seperti menambah, menampilkan, mencari, dan menghapus data. Dari praktikum ini saya juga memahami bahwa Doubly Linked List memiliki dua pointer, yaitu next dan prev, sehingga memudahkan proses penelusuran dan pengelolaan data dari dua arah. Melalui praktikum ini, saya menjadi lebih memahami penggunaan pointer serta penerapan struktur data dinamis dalam pemrograman.
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] R. S. Pressman dan B. R. Maxim, Software Engineering: A Practitioner's Approach, 9th ed. New York: McGraw-Hill, 2020.
+
+[2] <br> A. M. Tenenbaum, Y. Langsam, dan M. J. Augenstein, Data Structures Using C and C++, New Delhi: PHI Learning, 2017.
+
+[3] <br> B. W. Kernighan dan D. M. Ritchie, The C Programming Language, 2nd ed. New Jersey: Prentice Hall, 1988.
+
+[4] <br> M. A. Weiss, Data Structures and Algorithm Analysis in C++, 4th ed. Boston: Pearson Education, 2014.

@@ -101,4 +101,3 @@ void deleteAfter(address Prec, address &P) {
     P->next = NULL;
     P->prev = NULL;
 }
-c
