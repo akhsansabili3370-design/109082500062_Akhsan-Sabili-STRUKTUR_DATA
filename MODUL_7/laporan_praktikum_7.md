@@ -4,29 +4,29 @@
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Stack merupakan salah satu struktur data linear yang menerapkan prinsip Last In First Out (LIFO), yaitu data yang terakhir dimasukkan akan menjadi data pertama yang dikeluarkan [1]. Struktur data ini banyak digunakan dalam berbagai aplikasi komputer, seperti pengelolaan pemanggilan fungsi (function call), evaluasi ekspresi aritmatika, dan mekanisme undo-redo pada perangkat lunak [1].
 
-### A. ...<br/>
+### A. Konsep Stack<br/>
 
-...
+stack dapat diibaratkan seperti tumpukan piring, di mana piring yang terakhir diletakkan di atas akan menjadi piring pertama yang diambil. Pada struktur data stack, hanya terdapat satu titik akses yaitu bagian atas (top), sehingga seluruh operasi dilakukan melalui posisi tersebut [2].
 
-#### 1. ...
+#### 1. Push
+Push merupakan operasi untuk menambahkan elemen baru ke bagian atas stack. Jika stack masih memiliki ruang kosong, data dapat dimasukkan dan posisi top akan berpindah ke elemen yang baru ditambahkan [2].
 
-#### 2. ...
+#### 2. Pop
+Pop adalah operasi untuk menghapus elemen yang berada pada bagian atas stack. Setelah elemen dihapus, posisi top akan bergeser ke elemen sebelumnya. Operasi ini mencerminkan prinsip LIFO yang menjadi karakteristik utama stack [1].
 
-#### 3. ...
+#### 3. Peek 
+Peek digunakan untuk melihat elemen yang berada pada posisi teratas tanpa menghapusnya dari stack [3]
 
-### B. ...<br/>
+### B. Implementasi stack<br/>
 
-...
+#### 1. stack dengan array
+Implementasi stack menggunakan array memanfaatkan indeks untuk menunjukkan posisi elemen teratas. Metode ini sederhana dan memiliki proses akses yang cepat, tetapi kapasitas penyimpanan bersifat tetap sesuai ukuran array yang telah ditentukan [2].
 
-#### 1. ...
+#### 2. Stack dengan Linked List
+Pada implementasi linked list, setiap elemen stack disimpan dalam node yang saling terhubung. Pendekatan ini memungkinkan ukuran stack bertambah atau berkurang secara dinamis sesuai kebutuhan program [3].
 
-#### 2. ...
-
-#### 3. ...
 
 ## Guided 1
 
@@ -660,20 +660,22 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_7/screenshot/ss_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_7/screenshot/ss_2.png)
 
-penjelasan unguided 3
+Program diatas adalah implementasi stack menggunakan array. Pada soal pertama, program melakukan operasi dasar Stack seperti push, pop, menampilkan isi stack, dan membalik urutannya. Pada soal kedua, program menggunakan pushAscending() untuk memasukkan data secara berurutan dari nilai terkecil hingga terbesar. Pada soal ketiga, program menggunakan getInputStream() untuk menerima input angka dari pengguna sampai tombol Enter ditekan. Ketiga soal dijalankan secara berurutan dalam satu file main.cpp 
 
 ## Kesimpulan
 
-...
+Berdasarkan praktikum yang telah saya lakukan, saya dapat memahami konsep dan cara kerja struktur data stack yang menggunakan prinsip Last In First Out (LIFO). Saya berhasil mengimplementasikan stack menggunakan array dan linked list serta menerapkan berbagai operasi seperti push, pop, update, pencarian data, dan menampilkan isi stack. Melalui praktikum ini saya juga memahami perbedaan implementasi stack menggunakan array yang memiliki kapasitas tetap dan linked list yang bersifat dinamis. Praktikum ini membantu saya memahami penggunaan stack sebagai salah satu struktur data yang sering digunakan dalam berbagai aplikasi pemrograman.
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] N. Z. Jhanjhi, S. N. Brohi, dan M. Humayun, “Data Structures and Their Applications in Computer Science,” International Journal of Advanced Computer Science and Applications, vol. 10, no. 5, pp. 1–7, 2019.
+
+<br>[2] R. Kumar dan S. K. Singh, “A Study of Stack Data Structure and Its Applications,” International Journal of Computer Applications, vol. 182, no. 44, pp. 20–23, 2019.
+
+<br>[3] A. Sharma dan P. Gupta, “Implementation and Analysis of Stack Using Array and Linked List,” International Journal of Innovative Technology and Exploring Engineering, vol. 8, no. 9, pp. 2278–3075, 2019.
