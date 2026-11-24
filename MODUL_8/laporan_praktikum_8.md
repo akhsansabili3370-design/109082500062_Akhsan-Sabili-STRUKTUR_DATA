@@ -4,29 +4,33 @@
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+### A. Queue<br/>
 
-### A. ...<br/>
+#### 1. Pengertian queue
 
-...
+Queue atau antrian merupakan struktur data linear yang menerapkan prinsip FIFO (First In First Out), yaitu elemen yang pertama kali masuk akan menjadi elemen pertama yang keluar [1]
 
-#### 1. ...
+#### 2. Operasi pada Queue
 
-#### 2. ...
+Operasi dasar pada queue terdiri dari enqueue untuk menambahkan data ke bagian belakang antrian dan dequeue untuk menghapus data dari bagian depan antrian [1]. Selain itu terdapat operasi pendukung seperti isEmpty untuk memeriksa apakah antrian kosong dan isFull untuk memeriksa apakah kapasitas antrian telah penuh pada implementasi berbasis array [3].
 
-#### 3. ...
+#### 3. Prinsip FIFO
 
-### B. ...<br/>
+Queue bekerja berdasarkan prinsip FIFO (First In First Out), yaitu data yang pertama dimasukkan akan diproses atau dihapus terlebih dahulu [2]. Konsep ini menyerupai antrian pada kehidupan sehari-hari seperti antrean loket atau kasir, sehingga pengelolaan data dapat berlangsung secara teratur dan adil [1].
 
-...
+### B. Implementasi Queue<br/>
 
-#### 1. ...
+#### 1. Queue Menggunakan Array
 
-#### 2. ...
+Implementasi queue menggunakan array menyimpan elemen secara berurutan pada indeks tertentu. Posisi awal antrian ditunjukkan oleh variabel head, sedangkan posisi akhir ditunjukkan oleh variabel tail [3]. Implementasi ini memiliki kelebihan dalam akses data yang cepat, namun kapasitasnya bersifat tetap sesuai ukuran array yang telah ditentukan [1].
 
-#### 3. ...
+#### 2. Queue Menggunakan Linked List
+
+Linked list merupakan kumpulan node yang saling terhubung melalui pointer sehingga ukuran struktur data dapat bertambah atau berkurang secara dinamis [4]. Pada implementasi queue berbasis linked list, penambahan elemen dilakukan pada bagian tail dan penghapusan elemen dilakukan pada bagian head, sehingga prinsip FIFO tetap terjaga [2].
+
+#### 3. Circular Queue
+
+Circular queue merupakan pengembangan queue berbasis array yang memanfaatkan konsep perputaran indeks menggunakan operasi modulo sehingga ruang kosong yang berada di awal array dapat digunakan kembali [3]
 
 ## Guided 1
 
@@ -612,24 +616,28 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_8/screenshot/ss_1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_8/screenshot/ss_2.png)
 
 ##### Output 3
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_3](https://github.com/akhsansabili3370-design/109082500062_Akhsan-Sabili-STRUKTUR_DATA/blob/main/MODUL_8/screenshot/ss_3.png)
 
-penjelasan unguided 
+Program diatas merupakan queue yang menggunakan array yang menampilkan tiga alternatif metode pengelolaan antrian. Struktur Queue menyimpan data dalam array berukuran 5 elemen serta menggunakan variabel head, tail, jumlah, dan alternatif untuk mengatur kondisi queue. Fungsi enqueue() digunakan untuk menambahkan data ke belakang antrian, sedangkan dequeue() menghapus data dari depan sesuai prinsip FIFO. Pada fungsi main(), program menjalankan tiga mode queue yang berbeda, yaitu queue dengan pergeseran data, queue dengan perpindahan indeks head dan tail, serta circular queue yang menggunakan operasi modulo agar indeks dapat berputar kembali ke awal array. Setelah setiap operasi penambahan dan penghapusan data, fungsi printInfo() menampilkan kondisi queue sehingga perbedaan ketiga metode dapat diamati secara langsung
 
 ## Kesimpulan
 
-...
+Berdasarkan praktikum yang saya kerjakan dapat disimpulkan bahwa queue merupakan struktur data linear yang menerapkan prinsip FIFO, di mana data yang pertama masuk akan menjadi data pertama yang keluar. Queue dapat diimplementasikan menggunakan array maupun linked list dengan karakteristik yang berbeda. Implementasi array lebih sederhana namun memiliki kapasitas tetap, sedangkan linked list lebih fleksibel karena dapat bertambah secara dinamis sesuai kebutuhan memori. Selain itu, circular queue mampu meningkatkan efisiensi penggunaan array dengan memanfaatkan kembali ruang kosong yang tersedia sehingga proses pengelolaan antrian menjadi lebih optimal.
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, dan C. Stein, Introduction to Algorithms, 4th ed. Cambridge, MA: MIT Press, 2022.
+
+<br>[2] M. A. Weiss, Data Structures and Algorithm Analysis in C++, 4th ed. Boston: Pearson, 2014.
+
+<br>[3] R. S. Pressman dan B. R. Maxim, Software Engineering: A Practitioner's Approach, 9th ed. New York: McGraw-Hill Education, 2019.
+
+<br>[4] R. Lafore, Data Structures and Algorithms in C++, 2nd ed. Indianapolis: Sams Publishing, 2002.
